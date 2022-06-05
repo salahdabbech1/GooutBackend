@@ -1,6 +1,6 @@
-const Parent = require("../models/Parent.model");
-const Kid = require("../models/Kid.model");
-const Task = require("../models/Task.model");
+const Parent = require("../Models/Parent.model");
+const Kid = require("../Models/Kid.model");
+const Task = require("../Models/Task.model");
 
 module.exports={
 Getkids: async(req,res)=>{

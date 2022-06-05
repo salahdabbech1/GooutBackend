@@ -2,9 +2,9 @@ const Bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const multer = require("../Middleware/multer.config");
 const nodemailer = require("nodemailer");
-const Parent = require("../models/Parent.model");
-const Kid = require("../models/Kid.model");
-const Task = require("../models/Task.model")
+const Parent = require("../Models/Parent.model");
+const Kid = require("../Models/Kid.model");
+const Task = require("../Models/Kid.model")
 
 module.exports = {
   Getall: async(req,res)=>{
