@@ -38,5 +38,5 @@ app.use('/Uploads',express.static(path.join(__dirname,'Uploads')))
 
 const ParentRoute = require('./Routes/Parent.router')
 app.use('/Parent',ParentRoute)
-app.listen(3000, () => console.log("Server Started"))
+app.listen(process.env.PORT || 3000, () => console.log("Server Started"))
 
