@@ -1,5 +1,5 @@
 const Kid = require("../Models/Kid.model");
-const location = require("../Models/location.model");
+const location = require("../Models/Location.model");
 
 module.exports = {
     Addlocation: async (req, res) => {
