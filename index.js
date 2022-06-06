@@ -4,7 +4,7 @@ const app = express()
 const mongoose = require ("mongoose")
 const path = require('path')
 const unless = require('express-unless')
-mongoose.connect(process.env.DATABASE_URL)
+mongoose.connect("mongodb+srv://salah:SD2511999@cluster0.r1yhq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 const auth = require('./Middleware/auth')
 const db = mongoose.connection
 
